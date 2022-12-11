@@ -8,4 +8,6 @@ Using tranfromers we made a y-label called target where it contains whether the 
 Using word cloud we visualize the data that we have and plot a histogram for number of positive reviews and neagtive reviews.
 We got unbaised data so we perform random over sampling and text augmentation to handle the unbalanced data.
 We use various classification techniques like multinomial naive bayes and logistic regression.
-We also did sentiment analysis using BERT model.
+We also did sentiment analysis using BERT(Bidirectional Encoder Representations from Transformers) model.
+The main difference between transformers and BERT model is BERT is only an encoder, while the original transformer is composed of an encoder and decoder.
+
